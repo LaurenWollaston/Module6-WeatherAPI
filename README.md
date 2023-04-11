@@ -33,6 +33,9 @@ Repository follows best practices for class/id naming conventions, indentation, 
 Repository contains multiple descriptive commit messages ✔️<br>
 Repository contains a quality README file with description, screenshot, and link to deployed application ✔️<br>
 
+## Demo
+![Demo Gif](./demo.gif)
+
 # Links
 Deployed app: [Github Pages](https://laurenwollaston.github.io/Module6-WeatherAPI/index.html)  ||  https://laurenwollaston.github.io/Module6-WeatherAPI/index.html<br>
 
