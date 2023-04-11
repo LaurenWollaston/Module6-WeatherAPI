@@ -10,17 +10,43 @@ var curday = "1/1/1970";
 var citsearch="";
 var fetcheddata={};
 var curweatherdata={};
+var sh=[];
 var lscheck = localStorage.getItem('curcit');
+
+if(localStorage.getItem("searchhistory")==null){
+    localStorage.setItem("searchhistory",'[]');
+};
+
+var newparam=function(ctval){
+    var newcit=ctval;
+    document.getElementById("Cities").innerHTML+=`<a class="bg-white p-1 text-decoration-none text-black w-100 mb-2 text-center" href="?cit=`+newcit+`">`+newcit+`</a>`
+};
+var savecit=function(ncit){
+    sh=JSON.parse(localStorage.getItem("searchhistory"));
+    sh.push(ncit);
+    localStorage.setItem("searchhistory",JSON.stringify(sh));
+};
+
+function loadhistory(){
+    sh=JSON.parse(localStorage.getItem("searchhistory"));
+    for (i=0;i<sh.length;i++){
+        newparam(sh[i]);
+    }
+};
+
+loadhistory();
 
 sbmtrqst.addEventListener("click", function(event){
     event.preventDefault();
     param=custcit.value.replace(/\s/g,'+');
+    savecit(custcit.value);
     document.location.href="./index.html?cit="+param;
 });
 
 document.addEventListener("keydown", (event) => {
     if (event.key === 'Enter') {
         param=custcit.value.replace(/\s/g,'+');
+        savecit(custcit.value);
         document.location.href="./index.html?cit="+param;
     } 
   });
@@ -152,7 +178,6 @@ function citlocfetch(citname){
                 citlat=fetchloc.features[0].geometry.coordinates[1];
                 citlong=fetchloc.features[0].geometry.coordinates[0];
                 citname=fetchloc.features[0].properties.formatted;
-                console.log(citname);
                 localStorage.setItem('citlat',citlat);
                 localStorage.setItem('citlong',citlong);
                 fetchweather();
