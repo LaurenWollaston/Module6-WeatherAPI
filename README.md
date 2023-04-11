@@ -3,7 +3,7 @@
 ## User Story
 GIVEN a weather dashboard with form inputs <br>
 WHEN I search for a city<br>
-THEN I am presented with current and future conditions for that city and that city is added to the search history ❌ No Search History <br><br>
+THEN I am presented with current and future conditions for that city and that city is added to the search history ✔️ <br><br>
 WHEN I view current weather conditions for that city <br>
 THEN I am presented with the city name, the date, an icon representation of weather conditions, the temperature, the humidity, and the the wind speed ✔️<br><br>
 WHEN I view future weather conditions for that city<br>
@@ -36,4 +36,4 @@ Repository contains a quality README file with description, screenshot, and link
 # Links
 Deployed app: INSERT LINK TO DEPLOYED APPLICATION<br>
 
-Repo: INSERT LINK TO REPO: [Github](https://github.com/LaurenWollaston/Module6-WeatherAPI)
+Repo: [Github](https://github.com/LaurenWollaston/Module6-WeatherAPI)
