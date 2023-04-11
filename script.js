@@ -52,7 +52,7 @@ document.addEventListener("keydown", (event) => {
   });
 
 var fetchweather=function(){
-    fetch("https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/forecast?lat="+citlat+"&lon="+citlong+"&appid=91dbdb0266d7090109a5b346ee0c8973").then(function(response){
+    fetch("https://api.openweathermap.org/data/2.5/forecast?lat="+citlat+"&lon="+citlong+"&appid=91dbdb0266d7090109a5b346ee0c8973").then(function(response){
         if(response.ok){
             response.json().then(function(data){
                 fetcheddata=data;
@@ -148,7 +148,7 @@ var fetchweather=function(){
         }
     })
 //current weather
-fetch("https://cors-anywhere.herokuapp.com/http://api.openweathermap.org/data/2.5/weather?lat="+citlat+"&lon="+citlong+"&appid=91dbdb0266d7090109a5b346ee0c8973").then(function(response){
+fetch("https://api.openweathermap.org/data/2.5/weather?lat="+citlat+"&lon="+citlong+"&appid=91dbdb0266d7090109a5b346ee0c8973").then(function(response){
     if(response.ok){
         response.json().then(function(data){
             curweatherdata=data;
