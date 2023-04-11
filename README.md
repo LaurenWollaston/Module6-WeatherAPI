@@ -34,6 +34,6 @@ Repository contains multiple descriptive commit messages ✔️<br>
 Repository contains a quality README file with description, screenshot, and link to deployed application ✔️<br>
 
 # Links
-Deployed app: [Github Pages](https://laurenwollaston.github.io/Module6-WeatherAPI/index.html)     https://laurenwollaston.github.io/Module6-WeatherAPI/index.html<br>
+Deployed app: [Github Pages](https://laurenwollaston.github.io/Module6-WeatherAPI/index.html)  ||  https://laurenwollaston.github.io/Module6-WeatherAPI/index.html<br>
 
-Repo: [Github](https://github.com/LaurenWollaston/Module6-WeatherAPI)     https://github.com/LaurenWollaston/Module6-WeatherAPI
+Repo: [Github](https://github.com/LaurenWollaston/Module6-WeatherAPI)  ||  https://github.com/LaurenWollaston/Module6-WeatherAPI
