@@ -16,9 +16,9 @@ Uses the OpenWeather API to retrieve weather data ✔️<br>
 Uses localStorage to store persistent data ✔️ Localstorage saves the last city you clicked or search and loads that city's data on index.html opening.<br>
 
 ## Deployment: 32%
-Application deployed at live URL ❌<br>
+Application deployed at live URL ✔️<br>
 Application loads with no errors ✔️<br>
-Application GitHub URL submitted ❌<br>
+Application GitHub URL submitted ✔️<br>
 GitHub repository that contains application code ✔️<br>
 
 ## Application Quality: 15%
@@ -34,6 +34,6 @@ Repository contains multiple descriptive commit messages ✔️<br>
 Repository contains a quality README file with description, screenshot, and link to deployed application ✔️<br>
 
 # Links
-Deployed app: INSERT LINK TO DEPLOYED APPLICATION<br>
+Deployed app: [Github Pages](https://laurenwollaston.github.io/Module6-WeatherAPI/index.html)  ||  https://laurenwollaston.github.io/Module6-WeatherAPI/index.html<br>
 
-Repo: [Github](https://github.com/LaurenWollaston/Module6-WeatherAPI)
+Repo: [Github](https://github.com/LaurenWollaston/Module6-WeatherAPI)  ||  https://github.com/LaurenWollaston/Module6-WeatherAPI
